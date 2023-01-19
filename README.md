@@ -22,14 +22,14 @@
 ㄧ、從測試的角度來設計頁面規格
 二、撰寫登入頁程式
 三、從測試案例了解 @vue/test-utils 常用的功能
-▶︎ 測試檔案初始設定
-▶︎ 用 get 找出元素（element），並確認是有顯示在畫面上的（isVisible）。
-▶︎ 透過 getComponent 取出元件，並指定「input」來 setValue
-▶︎ 在輸入框輸入後，用 wrapper.vm.xxx 確定 data 的有成功寫入
-▶︎ 取得元素的 attributes，確認設定符合預期
-▶︎ 模擬使用者點擊輸入框（focus）輸入文字，然後離開（blur）的動作；並確認操作錯誤時，能捕捉預期的 error message
-▶︎ 使用者操作系統時，元件的 attributes 如預期改變
-▶︎ 模擬使用者 trigger button 事件，觀察頁面是否如預期跳轉（Vue Router）
+  ▶︎ 測試檔案初始設定
+  ▶︎ 用 get 找出元素（element），並確認是有顯示在畫面上的（isVisible）。
+  ▶︎ 透過 getComponent 取出元件，並指定「input」來 setValue
+  ▶︎ 在輸入框輸入後，用 wrapper.vm.xxx 確定 data 的有成功寫入
+  ▶︎ 取得元素的 attributes，確認設定符合預期
+  ▶︎ 模擬使用者點擊輸入框（focus）輸入文字，然後離開（blur）的動作；並確認操作錯誤時，能捕捉預期的 error message
+  ▶︎ 使用者操作系統時，元件的 attributes 如預期改變
+  ▶︎ 模擬使用者 trigger button 事件，觀察頁面是否如預期跳轉（Vue Router）
 ```
 
 > 讀者可以直接到[筆者的 Github](https://github.com/dean9703111/-vuetify-vite-ts-test-exmaples)，將專案 Clone 下來跑跑看，會更好理解裏面的邏輯（順手按個 ⭐ 更好 🤩）。
@@ -298,4 +298,4 @@ it("確認 Router 可以順利導向", async () => {
 });
 ```
 
-今天的文章就分享到這邊，我們下次再見～
+今天的文章分享到這邊，我們下次再見～
